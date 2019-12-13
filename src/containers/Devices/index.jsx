@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
+import Table from './components/Table';
 
 const MaterialTable = () => (
   <Container>
@@ -9,7 +10,7 @@ const MaterialTable = () => (
       </Col>
     </Row>
     <Row>
-      <h1>aki</h1>
+      <Table />
     </Row>
   </Container>
 );
